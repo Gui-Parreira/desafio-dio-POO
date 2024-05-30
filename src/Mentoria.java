@@ -6,7 +6,7 @@ public class Mentoria extends Conteudo {
 
     @Override
     public double carcularXp() {
-        return 0;
+        return XP_PADRAO + 20d;
     }
 
     public LocalDate getData() {

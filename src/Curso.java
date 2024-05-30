@@ -12,7 +12,7 @@ public class Curso extends Conteudo {
 
     @Override
     public double carcularXp() {
-        return 0;
+        return XP_PADRAO * cargaHoraria;
     }
 
     @Override
